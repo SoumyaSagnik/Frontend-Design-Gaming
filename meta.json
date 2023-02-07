@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "game": "God of War Ragnarok",
+    "image": "./assets/images/GOWR.jpg",
+    "video": "./assets/videos/GOW.mp4"
+  },
+  {
+    "id": 2,
+    "game": "Elden Ring",
+    "image": "./assets/images/eldenring.webp",
+    "video": "./assets/videos/EldenRing.mp4"
+  },
+  {
+    "id": 3,
+    "game": "Valorant",
+    "image": "./assets/images/valorant.jpg",
+    "video": "./assets/videos/Valorant.mp4"
+  },
+  {
+    "id": 4,
+    "game": "Horizon Forbidden West",
+    "image": "./assets/images/horizon.webp",
+    "video": "./assets/videos/HorizonFW.mp4"
+  },
+  {
+    "id": 5,
+    "game": "NFS Unbound",
+    "image": "./assets/images/nfs.webp",
+    "video": "./assets/videos/NFSUnbound.mp4"
+  }
+]
