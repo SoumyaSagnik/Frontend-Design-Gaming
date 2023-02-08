@@ -116,19 +116,6 @@ video {
     border-radius: .5rem;
 }
 
-button {
-    position: absolute;
-    z-index: 1;
-    bottom: -15%;
-    right: 15%;
-    opacity: 0;
-    cursor: pointer;
-}
-
-button img {
-    width: 2rem;
-}
-
 @keyframes expand {
     from {
         width: 10%;

@@ -4,11 +4,7 @@ const description = document.querySelector('.description');
 const header = document.querySelector('h1');
 const para1 = document.querySelector('#p1');
 const para2 = document.querySelector('#p2');
-const videoContainer = document.querySelector('.video-container');
 const videoSource = document.querySelector('video');
-const volume = document.querySelector('button');
-const volumeIcon = document.querySelector('button img');
-let isMute = true;
 
 
 items.forEach((game) => {
@@ -75,32 +71,6 @@ function applyProperties() {
 }
 
 applyProperties();
-
-videoSource.addEventListener('mouseover', () => {
-    volume.style.opacity = 1;
-})
-
-videoSource.addEventListener('mouseout', () => {
-    volume.style.opacity = 0;
-})
-
-volume.addEventListener('mouseover', () => {
-    volume.style.opacity = 1;
-})
-
-volume.addEventListener('mouseout', () => {
-    volume.style.opacity = 0;
-})
-
-volume.addEventListener('click', () => {
-    isMute = !isMute;
-    videoSource.muted = isMute;
-    if (isMute) {
-        volumeIcon.setAttribute('src', './assets/images/volume.png');
-    } else {
-        volumeIcon.setAttribute('src', './assets/images/mute.png');
-    }
-})
 
 function setDescriptionBackground(id) {
     let url;
