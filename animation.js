@@ -30,7 +30,6 @@ function applyProperties() {
             id = item.id;
         }
     });
-    setDescriptionBackground(id);
     switch (id) {
         case 'gow':
             header.innerText = 'God of War Ragnarok';
@@ -68,6 +67,7 @@ function applyProperties() {
             para2.innerText = "The gaming industry is bigger than the movie and music industry combined. Even in this modern world, there's a lot of stigma around this category. But that's nothing compared to the amount of love and affection gamers have towards their games."
             videoSource.setAttribute('src', './assets/videos/default.mp4');
     }
+    setDescriptionBackground(id);
 }
 
 applyProperties();
