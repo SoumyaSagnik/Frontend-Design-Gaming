@@ -3,7 +3,6 @@
 ### Showcasing five AAA games
 
 <br>
-<br>
 
 <p align="center">
 <img src="./assets/images/ss1.png">
@@ -14,3 +13,5 @@
 <p align="center">
 <img src="./assets/images/ss2.png">
 </p>
+
+<a href="https://games-showcase-ssk.netlify.app/">Visit</a>
